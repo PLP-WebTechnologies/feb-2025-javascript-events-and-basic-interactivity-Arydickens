@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Event Handling</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Welcome to the ultimate JavaScript playground! 🎉</h1>
+
+    <!-- Color Change Button -->
+    <button id="colorChangeButton" class="hover-button">Click to Change Color</button>
+
+    <!-- Double-click secret action -->
+    <button id="secretButton">Double Click Me 🤫</button>
+    <p id="secretMessage" class="hidden">🎉 You discovered the secret action!</p>
+
+    <!-- Image Gallery -->
+    <div class="image-gallery">
+        <img src="https://images.pexels.com/photos/1374064/pexels-photo-1374064.jpeg" alt="Image 1" />
+        <img src="https://images.pexels.com/photos/758744/pexels-photo-758744.jpeg"  alt="Image 2" />
+        <img src="https://images.pexels.com/photos/1732370/pexels-photo-1732370.jpeg" alt="Image 3" />
+    </div>
+
+    <!-- Signup Toggle -->
+    <div id="signupSection">
+        <button id="toggleSignup">Click to Sign Up</button>
+        <form id="signupForm" class="hidden">
+            <h2>Signup Form 📝</h2>
+            <input type="text" id="username" placeholder="Username" required />
+            <input type="email" id="email" placeholder="Email" required />
+            <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+            <button type="submit">Submit</button>
+            <p id="formFeedback"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

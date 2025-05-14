@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hover-button:hover {
+    background-color: lightblue;
+}
+
+.image-gallery img {
+    width: 100px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #eee;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+#colorChangeButton {
+    background-color: lightgreen;
+}
+
+#colorChangeButton.changed {
+    background-color: lightcoral;
+}
+
+.hidden {
+    display: none;
+}
+
+form {
+    margin-top: 30px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+}
+
+#formFeedback {
+    color: red;
+    margin-top: 10px;
+}
